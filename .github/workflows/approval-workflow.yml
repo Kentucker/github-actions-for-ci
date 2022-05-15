@@ -1,0 +1,11 @@
+name: Team awesome's approval workflow
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  custom:
+    runs-on: ubuntu-latest
