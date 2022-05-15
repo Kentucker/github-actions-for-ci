@@ -1,10 +1,6 @@
 name: Team awesome's approval workflow
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: pull_request_review
 
 jobs:
   custom:
